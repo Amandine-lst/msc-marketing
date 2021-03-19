@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@100&display=swap');
+
+.banner{
+	background-image: url("banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	text-align: center;
+	}
+
+	#barre{
+background-color: #FCF0F1;
+height: 25px;
+font-size: 18px;
+color: #E86A6C
+	}
+
+#barre a {
+margin: 20px;
+color: #E86A6C;
+text-decoration: none;
+text-align: right;
+	}
+
+	.footer {
+		background-color: #F2BBB8 ;
+		height: 75px;
+		color:#E86A6C;
+		display: flex;
+		justify-content: center;
+		align-items: center: 
+		margin-bottom: 0 auto;
+		}
+
+.navbar{
+background-color: #F2BBB8;
+height: 75px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: sticky;
+top:0;
+	}
+
+.navbar a {
+margin: 0;
+color: #E86A6C;
+text-decoration: none;
+	}
+
+h1
+{
+    color: #702C43;
+    margin:0px;
+    padding-top: 230px;
+}
+
+body
+{ text-align: center;
+	background-color: #FBFBFD;
+}
+
+h2{
+font-family: 'Playfair display', sans-serif;
+color:#2F536D;
+margin-bottom: 60px;
+padding: 16px;
+}
+p{
+font-family: 'Roboto', serif;
+font-size: 16px;
+text-align: center;
+margin-bottom: 60px;
+	}
+
+#btn-blue {
+color:white;
+text-decoration: none;
+background: #702C43;
+padding:17px 32px;
+border-radius: 7px;
+transition:1s;
+}
+#btn-blue:hover{
+	background-color: #DCCDD2;
+	}
+
+#rond {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	text-align: center;
+	}
+
+.card{
+justify-content: center;
+background-color: white;
+width: 300px;
+margin-bottom: 25px;
+padding-bottom: 45px;
+border-radius: 7px;
+	}
+
+	.cartes{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 12px;
+	text-align: center;
+	}
+
+.boite{
+	width: 935px;
+	margin:0 auto;
+}
+
+.carte{
+justify-content: center;
+background-color: white;
+width: 300px;
+height: 450px;
+margin: 30px;
+border-radius: 7px;
+box-shadow: 6px 6px 0px #FCF0F1;
+	}
+
+	.container{
+	width: 935px;
+	margin:0 auto;
+}
+
+.btn-red {
+color:#E86A6C;
+text-decoration: none;
+background: #F2BBB8;
+padding:17px 32px;
+margin-bottom: 10px;
+transition:1s;
+}
+
+.btn-red:hover{
+	background-color: white;
+	}
+
+.carre {
+	width: 250px;
+}
+
+
+
+
+
+
+
